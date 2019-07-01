@@ -1,4 +1,5 @@
 .hello_world {
+    color: blue;
     text-shadow: 1px 1px 0px #ffffff, 3px 3px 2px #000080;
 }
 
