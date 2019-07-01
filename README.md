@@ -1,2 +1,2 @@
-# tamayura.web.github.io
+# tamayura.web
 暇な時につくります。
