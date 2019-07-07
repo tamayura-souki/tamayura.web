@@ -4,6 +4,10 @@
 }
 
 .introduce {
-    background: lightgray;
+    background: lightblue;
     display: inline-block;
+}
+
+#links {
+    background: lightgray;
 }
