@@ -1,3 +1,14 @@
+body {
+    position: relative;
+    background: #6699cc;
+    color: white;
+    margin: 10px auto;
+}
+
+body:before {
+    
+}
+
 .hello_world {
     font-size: larger;
     color: white;
@@ -20,7 +31,10 @@
 }
 
 .introduce {
+    padding: 5px 10px;
+    margin: 10px auto;
     text-align: center;
+    border: dotted 3px snow;
 }
 
 #links {
@@ -43,13 +57,6 @@
     margin: 10px auto;
 }
 
-body {
-    position: relative;
-    background: #6699cc;
-    color: white;
-    margin: 10px auto;
-}
-
 footer {
     text-align: center;
 }
@@ -60,4 +67,59 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
+}
+
+.flower {
+    position: relative;
+    width: 100%;
+    padding: 340px 0px 340px 0px;
+    margin: auto;
+    border: solid 10px snow;
+    border-radius:49%;
+    max-width: 700px;
+}
+
+.petal {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 50%;
+    left:  50%;
+    border: none;
+    background: snow;
+    color: snow;
+    content:'';
+    max-width:  6rem;
+    max-height: 6rem;
+    transition: background-color 0.2s;
+}
+
+#petal0 {
+    transform: translate(-3.0rem, -3.0rem) translate(0, -10rem) scaleY(2) rotate(45deg);
+}
+#petal1 {
+    transform: translate(-3.0rem, -3.0rem) rotate(51.4deg) translate(0, -10rem) scaleY(2) rotate(-45deg);
+}
+#petal2 {
+    transform: translate(-3.0rem, -3.0rem) rotate(51.4deg) rotate(51.4deg) translate(0, -10rem) scaleY(2) rotate(-45deg);
+}
+#petal3 {
+    transform: translate(-3.0rem, -3.0rem) rotate(51.4deg) rotate(51.4deg) rotate(51.4deg) translate(0, -10rem) scaleY(2) rotate(-45deg);
+}
+
+#petal4 {
+    transform: translate(-3.0rem, -3.0rem) rotate(-51.4deg) rotate(-51.4deg) rotate(-51.4deg) translate(0, -10rem) scaleY(2) rotate(45deg);
+}
+#petal5 {
+    transform: translate(-3.0rem, -3.0rem) rotate(-51.4deg) rotate(-51.4deg) translate(0, -10rem) scaleY(2) rotate(45deg);
+}
+#petal6 {
+    transform: translate(-3.0rem, -3.0rem) rotate(-51.4deg) translate(0, -10rem) scaleY(2) rotate(45deg);
+}
+
+#petal0:visited {
+    background: deepskyblue;
+}
+.petal:hover {
+    background: navy;
 }
