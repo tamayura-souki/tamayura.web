@@ -1,79 +1,10 @@
-body {
-    position: relative;
-    background: #6699cc;
-    color: white;
-    margin: 10px auto;
-}
-
-body:before {
-    
-}
-
-.hello_world {
-    font-size: larger;
-    color: white;
-    border-bottom: dashed 4px snow;
-    text-align: center;
-}
-
-.entrance {
-    font-size: xx-large;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform : translate(-50%,-50%);
-    transform : translate(-50%,-50%);
-    text-align : center;
-}
-
-.xx_small {
-    font-size: x-large;
-}
-
-.introduce {
-    padding: 5px 10px;
-    margin: 10px auto;
-    text-align: center;
-    border: dotted 3px snow;
-}
-
-#links {
-    text-align: center;
-    background: lightsteelblue;
-    padding: 5px auto;
-    margin: 10px 10px;
-    width: auto;
-}
-#links h3 {
-    margin: 5px 0px 0px 0px;
-}
-
-#video {
-    text-align: center;
-}
-
-#video iframe{
-    display: inline-block;
-    margin: 10px auto;
-}
-
-footer {
-    text-align: center;
-}
-
-.magic_square {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
+/*メインページのお花クリック*/
 
 .flower {
     position: relative;
     width: 100%;
     padding: 340px 0px 340px 0px;
-    margin: auto;
+    margin: 40px auto;
     border: solid 10px snow;
     border-radius:49%;
     max-width: 700px;
@@ -92,6 +23,7 @@ footer {
     max-width:  6rem;
     max-height: 6rem;
     transition: background-color 0.2s;
+    text-decoration: none;
 }
 
 #petal0 {
@@ -120,6 +52,7 @@ footer {
 #petal0:visited {
     background: deepskyblue;
 }
-.petal:hover {
+
+.petal:hover{
     background: navy;
 }
