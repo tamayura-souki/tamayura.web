@@ -40,12 +40,30 @@ header:hover > .header_link {
 }
 
 #links {
-    text-align: center;
-    background: lightsteelblue;
-    padding: 5px auto;
-    margin: 10px 10px;
-    width: auto;
+    width: 100%;
+    margin: 10px auto;
+    background:  lightsteelblue;
 }
+
+#links p {
+    line-height: 8px;
+}
+
+.whole_table td{
+    padding: 0px 40px;
+}
+
+#links td {
+    min-width: 100%;
+    vertical-align: top;
+}
+
+#links .in_table td {
+    padding: 0px 10px;
+    border-right: dotted 1px white;
+    border-left:  dotted 1px white;
+}
+
 #links h3 {
     margin: 5px 0px 0px 0px;
 }
