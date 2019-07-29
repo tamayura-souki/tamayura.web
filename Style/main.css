@@ -73,3 +73,7 @@ footer {
     text-align: center;
     background: lightsteelblue;
 }
+
+footer table {
+    margin: 0px auto;
+}

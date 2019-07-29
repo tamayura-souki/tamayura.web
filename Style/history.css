@@ -14,10 +14,10 @@
     filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.6));
 }
 
-.history table {
+.history .content table {
     margin:  20px auto;
 }
-.history td {
+.history .content td {
     padding: 30px 10px;
     margin: 0px auto;
     text-align: center;
