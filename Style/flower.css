@@ -36,7 +36,7 @@
     transform: translate(-3.0rem, -3.0rem) rotate(51.4deg) rotate(51.4deg) translate(0, -10rem) scaleY(2) rotate(-45deg);
 }
 #petal3 {
-    transform: translate(-3.0rem, -3.0rem) rotate(51.4deg) rotate(51.4deg) rotate(51.4deg) translate(0, -10rem) scaleY(2) rotate(-45deg);
+    transform: translate(-3.0rem, -3.0rem) rotate(51.4deg) rotate(51.4deg) rotate(51.4deg) translate(0, -10rem) scaleY(2) rotate(-135deg);
 }
 
 #petal4 {
@@ -51,6 +51,10 @@
 
 #petal0:visited {
     background: deepskyblue;
+}
+
+#petal3:visited {
+    background: limegreen;
 }
 
 .petal:hover{
