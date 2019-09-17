@@ -53,8 +53,16 @@
     background: deepskyblue;
 }
 
+#petal1:visited {
+    background: darkturquoise;
+}
+
 #petal3:visited {
-    background: limegreen;
+    background: yellowgreen;
+}
+
+#petal6:visited {
+    background: dimgray;
 }
 
 .petal:hover{
